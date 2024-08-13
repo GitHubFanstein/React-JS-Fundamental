@@ -1,24 +1,18 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import EmailForm from './components/SendEmail/FormEmailChangePassword';
+import ChangePasswordForm from './components/ChangePasswordForm/FormChangePassword';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+    <div>
+      <button><a href='https://nodejs.org/en/download/prebuilt-installer/current'>Change Password</a> </button>
+      <EmailForm></EmailForm>
+      <ChangePasswordForm></ChangePasswordForm>
     </div>
+
+   
   );
 }
 
